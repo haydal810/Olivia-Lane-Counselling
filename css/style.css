@@ -10,6 +10,10 @@
 
 /* Basic */
 
+	html {
+		scroll-behavior: smooth;
+	}
+
 	body {
 		background: #fff;
 	}
