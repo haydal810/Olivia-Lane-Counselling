@@ -27,14 +27,14 @@
 	<link rel="stylesheet" href="assets\css\fontawesome-all.min.css">
 </head>
 
-<body class="landing">
+<body class="landing" id="landing">
 
 	<!-- Header -->
 	<header id="header">
 		<h1><a href="index.html">Olivia Lane Counselling</a></h1>
 		<nav id="nav">
 			<ul>
-				<li><a href="index.html">Home</a></li>
+				<li><a href="#landing">Home</a></li>
 				<li><a href="#one">What is Counselling</a></li>
 				<li><a href="#two">About me</a></li>
 				<li><a href="#three">Contact</a></li>
@@ -94,6 +94,9 @@
 	<!-- Two (About Me) -->
 	<div class="container">
 		<section id="two" class="wrapper">
+			<header>
+				<h2>About me</h2>
+			</header>
 			<h4><strong>Olivia Lane</strong></h4>
 			<p><span class="image left"><img src="images/Olivia_Image.jpg" alt="Olivia Lane"></span>I have BA (Hons) in
 				Counselling
@@ -137,7 +140,8 @@
 							<input type="text" name="phone" id="phone" value="" placeholder="Phone Number" required />
 						</div>
 						<div class="12u$">
-							<textarea name="message" id="message" placeholder="Enter your message" rows="6" required></textarea>
+							<textarea name="message" id="message" placeholder="Enter your message" rows="6"
+								required></textarea>
 						</div>
 						<div class="6u 12u$(small)">
 							<input type="checkbox" id="human" name="human" unchecked>
@@ -155,11 +159,12 @@
 		</div>
 	</section>
 
+
 	<!-- Footer -->
 	<footer id="footer" class="wrapper style2 align-center">
 		<div class="container">
 			<div class="row">
-				<section class="4u$ 12u$(medium) 12u$(small)">
+				<section class="12u$">
 					<h3>Follow me</h3>
 					<ul class="icons">
 						<li><a href="https://www.instagram.com/olivialanecounselling/" target="_blank"
@@ -172,7 +177,7 @@
 					<ul class="tabular">
 						<li>
 							<h3>Address</h3>
-							Cork City, County Cork.
+							Cork City, County Cork, Ireland.
 						</li>
 						<li>
 							<h3>Phone</h3>
@@ -180,7 +185,10 @@
 						</li>
 					</ul>
 				</section>
-				<section class="4u 6u$(medium) 12u$(small)">
+			</div>
+			<!-- External Links -->
+			<!-- <div class="row">
+				<section class="12u$">
 					<h3>External Links</h3>
 					<p>Some useful links:</p>
 					<ul class="alt">
@@ -190,8 +198,7 @@
 						<li><a href="#" target="_blank">External Link 3</a></li>
 					</ul>
 				</section>
-
-			</div>
+			</div> -->
 			<ul class="copyright">
 				<li>This Responsive Website was put together by <br> <a
 						href="https://www.linkedin.com/in/david-hayden810/" target="_blank"> The Web Lab</a></li>
