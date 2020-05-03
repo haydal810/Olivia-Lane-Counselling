@@ -958,18 +958,21 @@
 				right: 0;
 			}
 
-/* Banner */
+/* Banner for thank you page */
 
-	#banner_thank_you_page {
-		background: url("images/overlay.png"), url("../images/BG_Image_2.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		color: #ffffff;
-		padding: 16em 0em 14em;
-		text-align: center;
-	}
-	#banner_thank_you_page h2 {
+
+#banner_ty {
+	background: url("images/overlay.png"), url("../images/BG_Image_2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	padding: 16em 0em 14em;
+	text-align: center;
+	opacity: .9;
+}
+
+	#banner_ty h2 {
 		color: #ffffff;
 		font-size: 3em;
 		line-height: 1em;
@@ -977,24 +980,29 @@
 		padding: 0;
 	}
 
-	#banner_thank_you_page p {
+	#banner_ty p {
 		font-size: 1.5em;
 		margin: 1.5em 0 0 0;
 	}
 
-	#banner_thank_you_page .actions {
+	#banner_ty .actions {
 		margin: 3em 0 0 0;
 	}
 
-	#banner_thank_you_page .button {
+	#banner_ty .button {
 		background-color: transparent;
 		border: 1px solid #ffffff;
 		font-weight: 300;
 	}
 
-		#banner_thank_you_page .button:hover {
+		#banner_ty .button:hover {
 			background-color: rgba(255, 255, 255, 0.2);
 		}
+
+
+
+/* Banner */
+
 
 	#banner {
 		background: url("images/overlay.png"), url("../images/BG_Image_1.jpg");
