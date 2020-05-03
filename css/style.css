@@ -1093,3 +1093,14 @@
 					margin-left: 0;
 					padding-left: 0;
 				}
+
+/* My Customised CSS - The Web Lab */
+
+.label {
+	color: red;
+	padding: 8px;
+	font-family: Arial;
+  }
+  .yellow {
+	  background-color: #ffee01;
+	} /* Covid19 Yellow */ 
