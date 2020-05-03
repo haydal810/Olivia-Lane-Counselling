@@ -25,6 +25,14 @@
 	</noscript>
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	<link rel="stylesheet" href="assets\css\fontawesome-all.min.css">
+
+	<!-- Email.js script -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init("user_XXXXXXX");
+		})();
+	</script>
 </head>
 
 <body class="landing" id="landing">
@@ -123,7 +131,8 @@
 		<div class="container">
 			<header>
 				<h2>Contact Form</h2>
-				<p>Call me on <strong class="underline_text"><a href="tel:0035387 667 6478">087 667 6478</a></strong> to book
+				<p>Call me on <strong class="underline_text"><a href="tel:0035387 667 6478">087 667 6478</a></strong> to
+					book
 					in for an initial assessment or <br> send me a message below :</p>
 			</header>
 			<section>
@@ -206,6 +215,9 @@
 			</ul>
 		</div>
 	</footer>
+
+	<!-- Script for Email.js -->
+	<script src="assets\js\sendEmail.js"></script>
 
 </body>
 
