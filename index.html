@@ -139,23 +139,23 @@
 			</header>
 			<section>
 				<h3>Contact Form:</h3>
-				<form method="post" action="#">
+				<form id="client_form" onsubmit="return sendMail(this);" method="POST">
 					<div class="row uniform 50%">
 						<div class="12u$">
-							<input type="text" name="name" id="name" value="" placeholder="Name" required />
+							<input type="text" name="name" id="name" value="" placeholder="Your Full Name" required />
 						</div>
 						<div class="6u 12u$(xsmall)">
-							<input type="email" name="email" id="email" value="" placeholder="Email" required />
+							<input type="email" name="email" id="email" value="" placeholder="Email Address" required />
 						</div>
 						<div class="6u$ 12u$(xsmall)">
-							<input type="text" name="phone" id="phone" value="" placeholder="Phone Number" required />
+							<input type="text" name="phone" id="phone" value="" placeholder="Your Phone Number" required />
 						</div>
 						<div class="12u$">
-							<textarea name="message" id="message" placeholder="Enter your message" rows="6"
+							<textarea name="message" id="message" placeholder="Enter your message here" rows="6"
 								required></textarea>
 						</div>
 						<div class="6u 12u$(small)">
-							<input type="checkbox" id="human" name="human" unchecked>
+							<input type="checkbox" id="human" name="human" required unchecked>
 							<label for="human">I am a human and not a robot</label>
 						</div>
 						<div class="12u$">
