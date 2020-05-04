@@ -9,7 +9,7 @@ function sendMail(contact) {
             function (response) {
                 console.log("SUCCESS", response);
                 setTimeout("window.location.href = 'Thank_you_for_your_message.html';", 250); // the user will know that their message was sent successfully and is given feedback.
-                document.getElementById("client_form").reset() // the form is reset after submit button is hit
+                document.getElementById("contactForm").reset() // the form is reset after submit button is hit
             },
             function (error) {
                 console.log("FAILED", error);
