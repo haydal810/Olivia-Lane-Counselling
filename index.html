@@ -13,6 +13,13 @@
 	<meta name="Counselling and Psychotherapy, Olivia Lane, Olivia Lane Counselling" content="" />
 	<meta name="Counselling and Psychotherapy, Olivia Lane, Olivia Lane Counselling" content="" />
 	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<!-- Email.js script -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init("user_53AwFcy6SV8IDOohUxVS1");
+		})();
+	</script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/skel.min.js"></script>
 	<script src="js/skel-layers.min.js"></script>
@@ -26,13 +33,7 @@
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	<link rel="stylesheet" href="assets\css\fontawesome-all.min.css">
 
-	<!-- Email.js script -->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-	<script type="text/javascript">
-		(function () {
-			emailjs.init("user_53AwFcy6SV8IDOohUxVS1");
-		})();
-	</script>
+
 </head>
 
 <body class="landing" id="landing">
@@ -148,8 +149,7 @@
 							<input type="email" name="email" id="email" placeholder="Email Address" required />
 						</div>
 						<div class="6u$ 12u$(xsmall)">
-							<input type="text" name="phone" id="phone" placeholder="Your Phone Number"
-								required />
+							<input type="text" name="phone" id="phone" placeholder="Your Phone Number" required />
 						</div>
 						<div class="12u$">
 							<textarea name="message" id="message" placeholder="Enter your message here" rows="6"
