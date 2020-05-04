@@ -1,4 +1,4 @@
-function sendMail(contact) {
+function sendMail(contact_form) {
     emailjs.send("gmail", "olivia_lane_counselling_website", {
         "message": contact.message.value,
         "from_name": contact.name.value,
