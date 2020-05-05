@@ -21,6 +21,8 @@
 	<script type="text/javascript">
 		(function () {
 			emailjs.init("user_53AwFcy6SV8IDOohUxVS1");
+			emailjs.send("gmail", "olivia_lane_counselling_website", {"from_name":"dave hayden","from_email":"haydal.tmps@gmail.com","from_phone_number":"+353874154390","message":"test 1 - emailjs.send"});
+
 		})();
 	</script>
 	<script src="js/jquery.min.js"></script>
@@ -143,7 +145,7 @@
 			</header>
 			<section>
 				<h3>Contact Form:</h3>
-				<form onsubmit="return sendMail(this);" method="POST" name="contact_form" id="contact_form">
+				<form onsubmit="return sendMail(this);" name="contact_form" id="contact_form">
 					<div class="row uniform 50%">
 						<div class="12u$">
 							<input type="text" name="name" id="name" placeholder="Your Full Name" required />
