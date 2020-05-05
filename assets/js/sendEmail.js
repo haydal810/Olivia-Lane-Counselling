@@ -15,5 +15,5 @@ function sendMail(contact_form) {
                 console.log("FAILED", error);
             }
         );
-    return false; // To block from loading a new page...
+    return; // To block from loading a new page...
 }
