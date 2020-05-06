@@ -27,7 +27,7 @@
 	}
 
 	a {
-		color: #4dac71;
+		color: #6BA1CB;
 		text-decoration: underline;
 	}
 
@@ -245,8 +245,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4dac71;
-			box-shadow: 0 0 0 1px #4dac71;
+			border-color: #6BA1CB;
+			box-shadow: 0 0 0 1px #6BA1CB;
 		}
 
 	.select-wrapper {
@@ -349,16 +349,16 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #3ba666;
-			border-color: #3ba666;
+			background: #549CCC;
+			border-color: #549CCC;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4dac71;
-			box-shadow: 0 0 0 1px #4dac71;
+			border-color: #6BA1CB;
+			box-shadow: 0 0 0 1px #6BA1CB;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -438,7 +438,7 @@
 
 		.icon.rounded {
 			border-radius: 100%;
-			border: 1px solid #4dac71;
+			border: 1px solid #6BA1CB;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -729,7 +729,7 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #3ba666;
+		background-color: #549CCC;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff !important;
@@ -829,7 +829,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4dac71;
+			background-color: #6BA1CB;
 			color: #ffffff !important;
 		}
 
@@ -1048,12 +1048,12 @@
 	}
 
 		.wrapper.style1 {
-			background-color: #3ba666;
-			-moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-webkit-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+			background-color: #549CCC;
+			-moz-background-image: linear-gradient(60deg, #6BA1CB 50%, #549CCC 50%);
+			-webkit-background-image: linear-gradient(60deg, #6BA1CB 50%, #549CCC 50%);
+			-o-background-image: linear-gradient(60deg, #6BA1CB 50%, #549CCC 50%);
+			-ms-background-image: linear-gradient(60deg, #6BA1CB 50%, #549CCC 50%);
+			background-image: linear-gradient(60deg, #6BA1CB 50%, #549CCC 50%);
 			color: #ffffff;
 		}
 
