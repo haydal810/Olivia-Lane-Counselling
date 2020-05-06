@@ -837,14 +837,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #5cb67e;
+				background-color: #549CCC;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #459a65;
+				background-color: #549CCC;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
